@@ -1,0 +1,32 @@
+{
+  "name": "Jen",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "nuxt generate",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@artmizu/nuxt-prometheus": "3.0.4",
+    "@iconify-json/lucide": "^1.2.120",
+    "@iconify-json/simple-icons": "^1.2.92",
+    "@nuxt/a11y": "1.0.0-alpha.1",
+    "@nuxt/hints": "1.1.4",
+    "@nuxt/ui": "^4.10.0",
+    "nuxt": "^4.5.1",
+    "nuxt-typed-router": "4.0.10",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.11.4",
+    "oxfmt": "^0.61.0",
+    "oxlint": "^1.76.0",
+    "oxlint-tsgolint": "^7.0.2001",
+    "typescript": "^6.0.3",
+    "vue-tsc": "^3.3.8"
+  },
+  "packageManager": "pnpm@11.17.0"
+}
