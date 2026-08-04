@@ -16,6 +16,7 @@
     "@nuxt/a11y": "1.0.0-alpha.1",
     "@nuxt/hints": "1.1.4",
     "@nuxt/ui": "^4.10.0",
+    "@tauri-apps/plugin-sql": "~2.4.0",
     "nuxt": "^4.5.1",
     "nuxt-typed-router": "4.0.10",
     "tailwindcss": "^4.3.3"
