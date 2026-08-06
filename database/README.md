@@ -21,6 +21,8 @@ sqlite> .read some-script.sql
 
 - access db manually
 
+In my case:
+
 ```zsh
 $ sqlite3 /home/moxa/.config/com.moxa.jen/userdata.db
 ```
