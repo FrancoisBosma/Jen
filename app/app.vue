@@ -35,12 +35,6 @@ useSeoMeta({
     </UHeader>
 
     <UMain>
-      <div>BEGIN</div>
-      <!-- <div>{{ db }}</div>
-      <div>{{ creation }}</div>
-      <div>{{ insert }}</div> -->
-      <div>{{ dir }}</div>
-      <div>END</div>
       <NuxtPage />
     </UMain>
 
