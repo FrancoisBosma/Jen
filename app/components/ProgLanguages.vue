@@ -1,6 +1,8 @@
 <script setup lang="ts">
-const { tauriDb } = await useTauriDb()
-const prog_languages = await tauriDb.select("SELECT * FROM prog_languages;")
+// const { tauriDb } = await useTauriDb()
+// const prog_languages = await tauriDb.select("SELECT * FROM prog_languages;")
+const { localDb } = await useLocalDb()
+const prog_languages = null // TODO: use Drizzle's syntax
 </script>
 
 <template>
