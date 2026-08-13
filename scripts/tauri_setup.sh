@@ -8,4 +8,5 @@ sudo apt install libwebkit2gtk-4.1-dev \
   libssl-dev \
   libayatana-appindicator3-dev \
   librsvg2-dev
-
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+echo ">>>>>>>> need to run: source ~/.zshrc"

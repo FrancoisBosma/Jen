@@ -6,7 +6,8 @@
     "generate": "nuxt generate",
     "dev": "nuxt dev",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
+    "postinstall": "pnpm run \"/^postinstall:.*/\"",
+    "postinstall:nuxt": "nuxt prepare",
     "postinstall:tauri": "./scripts/tauri_setup.sh",
     "typecheck": "nuxt typecheck"
   },
