@@ -7,6 +7,7 @@
     "dev": "nuxt dev",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
+    "postinstall:tauri": "./scripts/tauri_setup.sh",
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
