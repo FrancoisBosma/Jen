@@ -24,5 +24,5 @@ sqlite> .read some-script.sql
 In my case:
 
 ```zsh
-$ sqlite3 /home/moxa/.config/com.moxa.jen/userdata.db
+$ sqlite3 ./database/userdata.db
 ```
